@@ -11,11 +11,12 @@ Simply add `ga` to your config.php `always_loaded.packages` config option.
 * Intl - replacement for default Lang that change default behavior in case there is no language file for default language. Instead of returning an empty string value for nonexisted key it will return same string as in argument.
 
 ## Usage
-
+By default, language file should be located in `fuel/app/lang/en/example.php` like in [fuelphp.com doc](http://fuelphp.com/docs/classes/lang.html) example:
 ```php
-// old usage still valid, will load app/views/example.php
+Intl::load('example');
 Intl::get('word_definition_in_english');
 ```
+All other commands will retain.
 
 ## Installing GA\helpers
 
