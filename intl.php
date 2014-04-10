@@ -7,10 +7,10 @@
  * instead of returning empty string value it returns same string as argument
  *
  * @package    Ga
- * @version    v1.21
+ * @version    v1
  * @author     Vladislav Muraviev
  * @license    MIT License
- * @copyright  2013 Vladislav Muraviev
+ * @copyright  2014 Vladislav Muraviev
  * @link       http://github.com/gubnota/fuelphp-ga
  */
 
