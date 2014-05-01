@@ -16,6 +16,8 @@ Autoloader::add_core_namespace('Ga');
 
 Autoloader::add_classes(array(
 	'Ga\\Intl'             => __DIR__.'/intl.php',
+	'Ga\\Browser'             => __DIR__.'/browser.php',
+	'Ga\\Uuid'             => __DIR__.'/uuid.php',
 ));
 
 
