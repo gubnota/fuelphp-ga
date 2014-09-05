@@ -20,7 +20,6 @@ Autoloader::add_classes(array(
 	'Ga\\Uuid'             => __DIR__.'/uuid.php',
 	'Ga\\Upload'             => __DIR__.'/upload.php',
 	'Ga\\Utils'             => __DIR__.'/utils.php',
-	'Ga\\Request'             => __DIR__.'/request.php',
 ));
 
 

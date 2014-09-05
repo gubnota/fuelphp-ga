@@ -16,6 +16,19 @@ namespace Ga;
 class Utils {
 
 	/**
+	 * Returns whether $_SERVER['HTTP_X_REQUESTED_WITH'] points to browser xmlhttprequest
+	 *
+	 * @param   string $requested_with $_SERVER['HTTP_X_REQUESTED_WITH']
+	 * @return  bool either found or not
+	 */
+	public static function is_ajax($requested_with = null){
+		if ($requested_with == null) $requested_with = @$_SERVER['HTTP_X_REQUESTED_WITH'];
+		if(!empty($requested_with) && strtolower($requested_with) == 'xmlhttprequest') {
+		return true;
+		}
+	}
+
+	/**
 	 * Returns merged internatiolized string values array
 	 * @param   array       $strings1  First string array
 	 * @param   array       $strings2  Translated string array
