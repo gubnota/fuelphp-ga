@@ -18,6 +18,9 @@ Autoloader::add_classes(array(
 	'Ga\\Intl'             => __DIR__.'/intl.php',
 	'Ga\\Browser'             => __DIR__.'/browser.php',
 	'Ga\\Uuid'             => __DIR__.'/uuid.php',
+	'Ga\\Upload'             => __DIR__.'/upload.php',
+	'Ga\\Utils'             => __DIR__.'/utils.php',
+	'Ga\\Request'             => __DIR__.'/request.php',
 ));
 
 
